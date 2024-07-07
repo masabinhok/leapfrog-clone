@@ -14,7 +14,7 @@ import Footer from './sections/Footer'
 const App = () => {
   return (
     <main>
-    <Navbar/>
+    <Navbar className=""/>
     <div className='p-5 flex flex-col items-center'>
       <Hero/>
       <Trusted/>
