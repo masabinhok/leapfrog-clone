@@ -15,7 +15,7 @@ const App = () => {
   return (
     <main>
     <Navbar/>
-    <div>
+    <div className='p-5 flex flex-col items-center'>
       <Hero/>
       <Trusted/>
       <Testomonials/>

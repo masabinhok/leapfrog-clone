@@ -6,8 +6,8 @@ import NavElem from "./NavElem";
 
 const Navbar = () => {
   return (
-    <nav className="flex min-w-full h-[88px] items-center justify-between gap-2 px-6 max-lg:h-[68px] max-lg:px-4 max-lg:justify-between ">
-      <div className="flex w-[195px] max-lg:w-[126px] gap-4 items-center ">
+    <nav className="flex min-w-full h-[88px] items-center justify-between gap-2 px-6 max-md:h-[68px] max-lg:px-4 max-lg:justify-between ">
+      <div className="flex w-[195px] max-lg:w-[126px] gap-6 items-center ">
         <Ham />
         <img
           className="w-[195px] h-[37px] max-lg:w-[126px] max-lg:h-[24px] "
