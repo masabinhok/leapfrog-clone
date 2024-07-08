@@ -12,9 +12,9 @@ import {
 
 const Trusted = () => {
   return (
-    <section className="max-w-[1320px] flex flex-col pt-[64px] tracking-tighter items-center h-[1000px]">
+    <section className="max-w-[1320px] flex flex-col py-[96px] tracking-tighter items-center ">
       <div>
-        <h1 className="max-w-[1024px] h-[112px] text-[40px] font-[600] text-center max-lg:text-[32px]">
+        <h1 className="max-w-[1024px] text-[40px] font-[700] text-center max-lg:text-[32px]">
           Trusted by 150 <span className="text-green-600">+</span> enterprises,
           scale-ups and startups.
         </h1>
@@ -27,7 +27,7 @@ const Trusted = () => {
         </p>
       </div>
 
-      <div className=" max-w-[1320px] w-full grid max-lg:grid-cols-2 grid-cols-4">
+      <div className=" max-w-[1320px] w-full grid max-md:grid-cols-2 grid-cols-4 mt-10">
         <Companies company={microsoft} />
         <Companies company={laudio} />
         <Companies company={keller} />
