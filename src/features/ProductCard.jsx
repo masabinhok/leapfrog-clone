@@ -1,5 +1,5 @@
 import Button from "../components/Button";
-import { features } from "../assets";
+import { feature1 } from "../assets";
 
 const ProductCard = () => {
   return (
@@ -18,7 +18,7 @@ const ProductCard = () => {
         <Button name="Explore Product Engineering" />
       </div>
       <div className="pt-10 flex-1">
-        <img src={features} alt="" />
+        <img src={feature1} alt="" />
       </div>
     </div>
   );

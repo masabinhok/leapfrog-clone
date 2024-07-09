@@ -16,10 +16,14 @@ import laudioCeo from "./laudioCeo.webp";
 import double_quote from "./double_quote.ico";
 import product from "./product.png";
 import data from "./data.png";
-import devops from "./data.png";
+import devops from "./devops.png";
 import team from "./team.png";
 import design from "./design.png";
-import features from "./features.svg";
+import feature1 from "./feature1.svg";
+import feature2 from "./feature2.svg";
+import feature3 from "./feature3.svg";
+import feature4 from "./feature4.svg";
+import feature5 from "./feature5.svg";
 
 export {
   lf_logo,
@@ -43,5 +47,9 @@ export {
   devops,
   team,
   design,
-  features,
+  feature1,
+  feature2,
+  feature3,
+  feature4,
+  feature5,
 };

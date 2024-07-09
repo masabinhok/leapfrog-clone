@@ -1,7 +1,11 @@
 import { product, team, devops, design, data } from "../assets";
 import { useState } from "react";
-
 import ProductCard from "../features/ProductCard";
+import TeamCard from "../features/TeamCard";
+import DesignCard from "../features/DesignCard";
+import DataCard from "../features/DataCard";
+import DevopsCard from "../features/DevopsCard";
+import { render } from "react-dom";
 
 const FeatureCard = ({ imgUrl, name, tag, setSection, section }) => {
   const isActive = section === tag;
@@ -29,6 +33,23 @@ const FeatureCard = ({ imgUrl, name, tag, setSection, section }) => {
 
 const Features = () => {
   const [section, setSection] = useState("products");
+
+  const renderCard = () => {
+    switch (section) {
+      case "products":
+        return <ProductCard />;
+      case "team":
+        return <TeamCard />;
+      case "design":
+        return <DesignCard />;
+      case "data":
+        return <DataCard />;
+      case "devops":
+        return <DevopsCard />;
+      default:
+        return null;
+    }
+  };
 
   return (
     <section className="min-w-full flex flex-col">
@@ -71,7 +92,7 @@ const Features = () => {
       </nav>
 
       <div className="bg-black flex items-center justify-center">
-        {section === "products" && <ProductCard />}
+        {renderCard()}
       </div>
     </section>
   );
