@@ -21,7 +21,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="max-w-[1320px] mx-auto my-8 px-4 max-xl:max-w-full ">
+    <section className="max-w-[1320px] mx-auto my-8 px-4 max-xl:max-w-full pb-[96px] ">
       <Slider {...settings}>
         {testimonials.map((testimonial, index) => (
           <div key={index} className="px-2">

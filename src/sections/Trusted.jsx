@@ -12,7 +12,7 @@ import {
 
 const Trusted = () => {
   return (
-    <section className="max-w-[1320px] flex flex-col py-[96px] tracking-tighter items-center ">
+    <section className="p-5 max-w-[1320px] flex flex-col py-[96px] tracking-tighter items-center ">
       <div>
         <h1 className="max-w-[1024px] text-[40px] font-[700] text-center max-lg:text-[32px]">
           Trusted by 150 <span className="text-green-600">+</span> enterprises,

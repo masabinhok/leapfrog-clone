@@ -1,6 +1,6 @@
 import React from "react";
 import { lf_logo } from "../assets";
-import Button from "./Button";
+import BuildButton from "./BuildButton";
 import Ham from "./Ham";
 import NavElem from "./NavElem";
 
@@ -24,7 +24,7 @@ const Navbar = () => {
           <NavElem navEl="About us" />
         </div>
       </div>
-      <Button name="BUILD" />
+      <BuildButton name="BUILD" />
     </nav>
   );
 };
