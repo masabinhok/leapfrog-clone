@@ -1,4 +1,3 @@
-import { laudio } from "../assets";
 import BlogCard from "../components/BlogCard";
 import { signeticBlog, laudioBlog } from "../assets";
 
@@ -24,7 +23,7 @@ const Blog = () => {
   return (
     <section className="flex items-center justify-center min-w-full bg-[#F7F8FB] max-lg:py-[64px] py-[96px] max-w-[1320px]">
       <div className="flex flex-col px-5 items-center justify-center">
-        <div className="flex max-w-[1024px] text-center flex-col justify-center text-center">
+        <div className="flex max-w-[1024px] text-center flex-col justify-center ">
           <h1 className="leading-normal tracking-tighter text-[32px] font-semibold">
             We have
             <span className=" tracking-tighter text-green-500">

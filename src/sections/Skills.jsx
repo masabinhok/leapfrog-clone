@@ -45,14 +45,14 @@ const Skills = () => {
           imgURL={buildicon}
         />
         <SkillsCard
-          tag="tech"
+          tag="technologies"
           setSection={setSection}
           section={section}
           name="Technologies"
           imgURL={technologies}
         />
         <SkillsCard
-          tag="practice"
+          tag="practices"
           setSection={setSection}
           section={section}
           name="Practices"
