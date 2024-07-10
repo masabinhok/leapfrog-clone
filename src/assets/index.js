@@ -26,6 +26,10 @@ import feature4 from "./feature4.svg";
 import feature5 from "./feature5.svg";
 import signeticBlog from "./signeticBlog.jpeg";
 import laudioBlog from "./laudioBlog.jpeg";
+import buildicon from "./buildicon.png";
+import industries from "./industries.png";
+import practices from "./practices.png";
+import technologies from "./technologies.png";
 
 export {
   lf_logo,
@@ -56,4 +60,8 @@ export {
   feature5,
   signeticBlog,
   laudioBlog,
+  buildicon,
+  industries,
+  practices,
+  technologies
 };
