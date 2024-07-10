@@ -24,6 +24,8 @@ import feature2 from "./feature2.svg";
 import feature3 from "./feature3.svg";
 import feature4 from "./feature4.svg";
 import feature5 from "./feature5.svg";
+import signeticBlog from "./signeticBlog.jpeg";
+import laudioBlog from "./laudioBlog.jpeg";
 
 export {
   lf_logo,
@@ -52,4 +54,6 @@ export {
   feature3,
   feature4,
   feature5,
+  signeticBlog,
+  laudioBlog,
 };
