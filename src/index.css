@@ -25,3 +25,11 @@
   margin: 0;
   padding: 0;
 }
+
+.rocket {
+  background: url("./assets/rocket.jpg");
+}
+
+.boating {
+  background: url("./assets/boating.jpg");
+}

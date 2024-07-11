@@ -34,6 +34,8 @@ import shakehands from "./shakehands.webp";
 import design_discovery from "./design_discovery.svg";
 import devops_playbok from "./devops.svg";
 import invincible_approach from "./invincible_approach.svg";
+import rocket from "./rocket.jpg";
+import boating from "./boating.jpg";
 
 export {
   lf_logo,
@@ -72,4 +74,6 @@ export {
   design_discovery,
   devops_playbok,
   invincible_approach,
+  rocket,
+  boating,
 };

@@ -17,7 +17,9 @@ const Thinking = () => {
       </div>
       <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1">
         {playbooks.map((book) => (
-          <Playbooks imgURL={book.imgURL} about={book.about} />
+          <div key={book.about}>
+            <Playbooks imgURL={book.imgURL} about={book.about} />
+          </div>
         ))}
       </div>
     </section>
