@@ -8,7 +8,7 @@ const SkillsCard = ({ imgURL, name, setSection, tag, section }) => {
   return (
     <div
       onClick={handleClick}
-      className={`flex-1 p-6 max-lg:p-3 flex max-lg:flex-col text-center justify-center items-center gap-3 cursor-pointer hover:bg-slate-100 ${
+      className={`flex-1 p-6 max-lg:p-3 flex max-lg:flex-col text-center justify-center items-center gap-3 cursor-pointer w-full hover:bg-slate-100 ${
         isActive ? "bg-slate-200" : ""
       } `}
     >

@@ -25,7 +25,7 @@ const Skills = () => {
   };
 
   return (
-    <section className="max-w-[1320px] flex items-center justify-center p-5 flex-col">
+    <section className="max-w-[1320px] flex items-center justify-center py-[96px] px-5 flex-col">
       <div className="flex flex-col items-center min-lg:mx-[136px] mb-[40px] justify-center">
         <h1 className="font-semibold text-[32px]">
           <span className="text-green-500 ">Skills</span> at a glance
