@@ -36,6 +36,8 @@ import devops_playbok from "./devops.svg";
 import invincible_approach from "./invincible_approach.svg";
 import rocket from "./rocket.jpg";
 import boating from "./boating.jpg";
+import lf_white from "./lf_white.svg";
+import copyright from "./copyright.webp";
 
 export {
   lf_logo,
@@ -76,4 +78,6 @@ export {
   invincible_approach,
   rocket,
   boating,
+  lf_white,
+  copyright
 };

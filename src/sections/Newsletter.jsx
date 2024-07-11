@@ -4,7 +4,7 @@ import { rocket, boating } from "../assets";
 
 const Newsletter = () => {
   return (
-    <section className="flex w-full flex-col bg-black items-center justify-center py-[96px] p-5 ">
+    <section className="flex w-full flex-col bg-black items-center justify-center pt-[96px] p-5 ">
       <div className="flex flex-col mb-4 max-w-[1320px]">
         <div>
           {" "}
@@ -12,7 +12,7 @@ const Newsletter = () => {
             Ready to get started?
           </h1>
         </div>
-        <div className="grid grid-cols-2 max-md:grid-cols-1 justify-items-center items-center gap-8 mt-8">
+        <div className="grid grid-cols-2 max-lg:grid-cols-1 justify-items-center items-center gap-8 mt-8">
           {footerCard.map((card) => (
             <div
               className={`p-12   ${
@@ -36,7 +36,7 @@ const Newsletter = () => {
           ))}
         </div>
       </div>
-      <div className="flex max-lg:flex-col items-center justify-center py-10 w-full max-w-[1000px]  p-5">
+      <div className="flex max-lg:flex-col items-center justify-center py-10 w-full max-w-[1000px]  p-5 ">
         <h1 className="text-[24px] max-md:text-[32px] text-green-500 font-bold whitespace-nowrap ">
           Stay in the loop
         </h1>
