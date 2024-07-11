@@ -30,6 +30,7 @@ import buildicon from "./buildicon.png";
 import industries from "./industries.png";
 import practices from "./practices.png";
 import technologies from "./technologies.png";
+import shakehands from "./shakehands.webp";
 
 export {
   lf_logo,
@@ -63,5 +64,6 @@ export {
   buildicon,
   industries,
   practices,
-  technologies
+  technologies,
+  shakehands,
 };
