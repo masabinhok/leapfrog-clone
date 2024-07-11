@@ -4,15 +4,11 @@ import { shakehands } from "../assets";
 const TechnologyPartner = () => {
   return (
     <section className="flex justify-center w-full bg-[#f7f8fb]">
-      <div className="grid grid-cols-7 gap-2 max-w-[1320px] mx-[136px] max-md:mx-5 max-md:grid-cols-1">
-        <div className="col-span-3 flex items-center justify-center max-md:w-full">
-          <img
-            src={shakehands}
-            alt="Shake Hands"
-            className="max-w-[700px] max-h-[700px] max-md:rotate-90"
-          />
+      <div className="grid grid-cols-7 gap-6 max-w-[1320px] mx-[136px] max-lg:mx-5 max-lg:grid-cols-1">
+        <div className="col-span-3 flex items-center justify-center max-lg:rotate-90 max-md:w-full">
+          <img src={shakehands} alt="Shake Hands" className="max-w-full h-fit" />
         </div>
-        <div className="col-span-4 flex flex-col my-12 max-md:my-4 pl-6 max-md:py-4 tracking-tighter leading-normal justify-center">
+        <div className="col-span-4 flex flex-col my-12 pl-6 max-md:py-4 tracking-tighter leading-normal justify-center">
           <label className="text-[16px] mb-4 font-bold">
             THE LEAPFROG DIFFERENCE
           </label>

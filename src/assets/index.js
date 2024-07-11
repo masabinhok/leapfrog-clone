@@ -31,6 +31,9 @@ import industries from "./industries.png";
 import practices from "./practices.png";
 import technologies from "./technologies.png";
 import shakehands from "./shakehands.webp";
+import design_discovery from "./design_discovery.svg";
+import devops_playbok from "./devops.svg";
+import invincible_approach from "./invincible_approach.svg";
 
 export {
   lf_logo,
@@ -66,4 +69,7 @@ export {
   practices,
   technologies,
   shakehands,
+  design_discovery,
+  devops_playbok,
+  invincible_approach,
 };
