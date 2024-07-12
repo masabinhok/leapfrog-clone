@@ -30,13 +30,16 @@ const AboutStats = () => {
   ];
 
   return (
-    <div className="grid grid-cols-4  max-md:grid-cols-1 w-full max-w-[1320px] py-[96px] justify-items-center">
-      {stats.map((stat) => (
-        <div key={stat.id}>
-          <StatsCard stat={stat} />
-        </div>
-      ))}
-    </div>
+    <section className="w-full bg-[#f7f8fb] flex items-center justify-center">
+      {" "}
+      <div className="grid grid-cols-4  max-md:grid-cols-1 w-full max-w-[1320px] py-[96px] justify-items-center">
+        {stats.map((stat) => (
+          <div key={stat.id}>
+            <StatsCard stat={stat} />
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };
 

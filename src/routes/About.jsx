@@ -5,6 +5,7 @@ import Newsletter from "../sections/Newsletter";
 import AboutHero from "../about/AboutHero";
 import AboutSuccess from "../about/AboutSuccess";
 import AboutStats from "../about/AboutStats";
+import AboutTeam from "../about/AboutTeam";
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
         <AboutHero />
         <AboutSuccess />
         <AboutStats />
+        <AboutTeam />
         <Newsletter />
         <Footer />
       </div>

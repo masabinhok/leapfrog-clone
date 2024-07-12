@@ -47,6 +47,8 @@ import calendar from "./calendar.png";
 import group from "./group.png";
 import happy from "./happy.png";
 import verified from "./verified.png";
+import member1 from "./member1.webp";
+import member2 from "./member2.webp";
 
 export {
   lf_logo,
@@ -98,4 +100,6 @@ export {
   group,
   happy,
   verified,
+  member1,
+  member2,
 };
