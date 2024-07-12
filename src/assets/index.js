@@ -40,6 +40,7 @@ import lf_white from "./lf_white.svg";
 import copyright from "./copyright.webp";
 import fellowship from "./fellowship.png";
 import careers from "./careers.png";
+import hackathon from "./hackathon.webp";
 
 export {
   lf_logo,
@@ -84,4 +85,5 @@ export {
   copyright,
   fellowship,
   careers,
+  hackathon,
 };

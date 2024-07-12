@@ -7,6 +7,9 @@ const NavElem = ({ navEl, navElem, setNavElem }) => {
 
   return (
     <div
+      style={{
+        backgroundColor: navElem === navEl ? "#f7f8fb" : "white",
+      }}
       onClick={() => handleClick(navEl)}
       className="p-8 max-xl:px-3  hover:bg-gray-100"
     >
