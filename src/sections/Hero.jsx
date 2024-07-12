@@ -14,7 +14,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="p-5 max-w-[1320px] flex max-lg:flex-col mt-[88px] max-md:mt-[68px]">
+    <section className="p-5 max-w-[1320px] flex max-lg:flex-col ">
       <div className="flex-1 flex flex-col justify-center py-5">
         <h1 className="text-[90px] tracking-tighter  max-lg:text-[64px] font-bold max-lg:leading-[70px] leading-[90px]">
           Innovate better,{" "}

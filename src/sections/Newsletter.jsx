@@ -36,21 +36,6 @@ const Newsletter = () => {
           ))}
         </div>
       </div>
-      <div className="flex max-lg:flex-col items-center justify-center py-10 w-full max-w-[1000px]  p-5 ">
-        <h1 className="text-[24px] max-md:text-[32px] text-green-500 font-bold whitespace-nowrap ">
-          Stay in the loop
-        </h1>
-        <div className="flex p-5  max-md:flex-col items-center justify-center w-full gap-4">
-          <input
-            className="p-[10px] bg-[#222222] text-[16px] w-full max-md:w-full"
-            type="text"
-            placeholder="Your email address"
-          />
-          <button className="p-[10px] text-[16px] w-fit bg-white whitespace-nowrap">
-            Subscribe for updates
-          </button>
-        </div>
-      </div>
     </section>
   );
 };

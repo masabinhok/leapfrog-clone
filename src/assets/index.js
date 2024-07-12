@@ -38,6 +38,8 @@ import rocket from "./rocket.jpg";
 import boating from "./boating.jpg";
 import lf_white from "./lf_white.svg";
 import copyright from "./copyright.webp";
+import fellowship from "./fellowship.png";
+import careers from "./careers.png";
 
 export {
   lf_logo,
@@ -79,5 +81,7 @@ export {
   rocket,
   boating,
   lf_white,
-  copyright
+  copyright,
+  fellowship,
+  careers,
 };
