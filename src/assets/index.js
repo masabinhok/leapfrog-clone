@@ -43,6 +43,11 @@ import careers from "./careers.png";
 import hackathon from "./hackathon.webp";
 import abouthero from "./abouthero.webp";
 import aboutsuccess from "./aboutsuccess.webp";
+import calendar from "./calendar.png";
+import group from "./group.png";
+import happy from "./happy.png";
+import verified from "./verified.png";
+
 export {
   lf_logo,
   build_with_us,
@@ -89,4 +94,8 @@ export {
   hackathon,
   abouthero,
   aboutsuccess,
+  calendar,
+  group,
+  happy,
+  verified,
 };

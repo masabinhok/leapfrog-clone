@@ -1,9 +1,43 @@
-import React from 'react'
+import { calendar, group, happy, verified } from "../assets";
+import StatsCard from "./StatsCard";
 
 const AboutStats = () => {
-  return (
-    <div>AboutStats</div>
-  )
-}
+  const stats = [
+    {
+      id: 1,
+      imgURL: calendar,
+      title: "Years of operation",
+      number: "13+",
+    },
+    {
+      id: 2,
+      title: "Skilled professionals",
+      number: "450+",
+      imgURL: group,
+    },
+    {
+      id: 4,
+      title: "Net Promoter Score",
+      imgURL: verified,
+      number: "77",
+    },
+    {
+      id: 3,
+      title: "Happy Clients",
+      number: "150+",
+      imgURL: happy,
+    },
+  ];
 
-export default AboutStats
+  return (
+    <div className="grid grid-cols-4  max-md:grid-cols-1 w-full max-w-[1320px] py-[96px] justify-items-center">
+      {stats.map((stat) => (
+        <div key={stat.id}>
+          <StatsCard stat={stat} />
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default AboutStats;

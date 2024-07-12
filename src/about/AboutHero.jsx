@@ -1,11 +1,11 @@
 import React from "react";
 import HeroArrow from "../components/HeroArrow";
-import { abouthero, aboutsuccess } from "../assets";
+import { abouthero } from "../assets";
 
 const AboutHero = () => {
   return (
-    <section className="flex items-center justify-center w-full ">
-      <div className="flex max-md:flex-col justify-between max-w-[1320px] w-full py-[96px] px-5 max-md:py-[120px]">
+    <section className="flex items-center justify-center w-full">
+      <div className="flex max-md:flex-col justify-between max-w-[1320px] w-full py-[96px] px-5 max-md:py-[120px] gap-10">
         <div className="flex flex-col items-start flex-1">
           <h1 className="mb-5 font-bold text-[16px]">ABOUT US</h1>
           <p className="text-[32px] font-bold">
@@ -17,7 +17,7 @@ const AboutHero = () => {
             help with your next venture.We stand as an experienced and
             trustworthy technology ally, ready to help with your next venture.
           </p>
-          <p className="mt-4 text-[16px] ">
+          <p className="mt-4 text-[16px]">
             Leapfrog, formed by a team of seasoned founders, CTOs, product
             designers, and engineers, has grown to a workforce of 450 strong.
             Over the past decade, we've been instrumental in delivering over a
@@ -30,11 +30,11 @@ const AboutHero = () => {
             <HeroArrow name="GET IN TOUCH" />
           </div>
         </div>
-        <div className="flex-1 flex justify-end  ">
+        <div className="flex-1 flex justify-end max-md:justify-center">
           <img
-            className="max-w-[530px] w-full object-fit max-h-[600px] rounded-br-[25%] max-md:w-"
+            className="max-w-[530px] w-full object-cover max-h-[600px] min-w-[300px] rounded-br-[25%] max-md:w-[80%] max-sm:w-[100%] aspect-square"
             src={abouthero}
-            alt=""
+            alt="About Us"
           />
         </div>
       </div>
