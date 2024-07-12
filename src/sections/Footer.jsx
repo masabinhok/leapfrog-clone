@@ -15,7 +15,7 @@ const Footer = () => {
             type="text"
             placeholder="Your email address"
           />
-          <button className="p-[10px] text-[16px] w-fit bg-white whitespace-nowrap">
+          <button className="p-[10px] text-[16px] w-fit bg-white  text-black whitespace-nowrap">
             Subscribe for updates
           </button>
         </div>
