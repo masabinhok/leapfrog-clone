@@ -41,7 +41,8 @@ import copyright from "./copyright.webp";
 import fellowship from "./fellowship.png";
 import careers from "./careers.png";
 import hackathon from "./hackathon.webp";
-
+import abouthero from "./abouthero.webp";
+import aboutsuccess from "./aboutsuccess.webp";
 export {
   lf_logo,
   build_with_us,
@@ -86,4 +87,6 @@ export {
   fellowship,
   careers,
   hackathon,
+  abouthero,
+  aboutsuccess,
 };
