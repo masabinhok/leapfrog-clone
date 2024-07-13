@@ -49,6 +49,7 @@ import happy from "./happy.png";
 import verified from "./verified.png";
 import member1 from "./member1.webp";
 import member2 from "./member2.webp";
+import employee from "./employee.webp";
 
 export {
   lf_logo,
@@ -102,4 +103,5 @@ export {
   verified,
   member1,
   member2,
+  employee
 };

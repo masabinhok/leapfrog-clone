@@ -49,7 +49,9 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <BuildButton name="BUILD" />
+        <Link to="/build">
+          <BuildButton name="BUILD" />
+        </Link>
       </nav>
       <div className="mt-[88px] max-md:mt-[68px] max-md:hidden visible">
         {navElem === "Services" && <Services />}
