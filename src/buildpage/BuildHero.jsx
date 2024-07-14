@@ -236,7 +236,7 @@ const BuildHero = () => {
       </div>
       <div className="flex flex-col items-center bg-[#f7f8fb] py-[96px] w-full ">
         <div className="flex items-center justify-center flex-col max-w-[1320px] w-full">
-          <h1 className="font-bold text-[32px] w-full">
+          <h1 className="font-bold text-[32px] w-full mb-6 pb-4">
             We're happy to{" "}
             <span className="text-green-500">chat in person </span>
             if your're close to one of our <span>office locations.</span>
