@@ -1,6 +1,6 @@
 import React from "react";
 import HeroArrow from "../components/HeroArrow";
-import { employee } from "../assets";
+import { cities, employee } from "../assets";
 import Button from "../components/Button";
 import { buildicon } from "../assets";
 
@@ -97,9 +97,38 @@ const BuildHero = () => {
     },
   ];
 
+  const cityInfo = [
+    {
+      imgURL: cities,
+      city: "Seattle",
+      address: "1335 N Northlake Way Seattle WA 98103",
+    },
+    {
+      imgURL: cities,
+      city: "Kathmandu",
+      address: "Charkhal Rd, Dillibazar Kathmandu, Nepal 44660",
+    },
+    {
+      imgURL: cities,
+      city: "Austin",
+      address: "12600 Hill Country Blvd Austin TX 78738",
+    },
+    {
+      imgURL: cities,
+      city: "Geneva",
+      address: "Impact Hub Geneva Rue Fendt 1, 1201 Geneva Switzerland",
+    },
+    {
+      imgURL: cities,
+      city: "Pune",
+      address:
+        "Office No: 03-110, WeWorkEleven West, Pan Card Club Road Baner, Pune 411045",
+    },
+  ];
+
   return (
-    <section className="max-w-[1320px] mt-[96px] p-5">
-      <div className="flex flex-col mb-10">
+    <section className="w-full flex flex-col items-center justify-center mt-[96px] p-5">
+      <div className="flex flex-col mb-10 max-w-[1320px]">
         <h1 className="mb-5  text-[16px] font-bold">CONTACT US</h1>
         <h2 className="text-[64px] max-lg:text-[40px] max-md:text-[32px] font-bold">
           Let's build <span className="text-green-500">together</span>
@@ -109,7 +138,7 @@ const BuildHero = () => {
           looking to scale up, there's definitely something we can do for you.
         </p>
       </div>
-      <div className="flex max-md:flex-col gap-[100px]">
+      <div className="flex max-md:flex-col gap-[100px] max-w-[1320px]">
         <div className="flex-1">
           <div>
             {" "}
@@ -157,7 +186,7 @@ const BuildHero = () => {
           </div>
           <div className="pb-4 mb-6">
             <h1 className="font-bold">How do you want to work with us?</h1>
-            <p className="mt-2">We have more than one ways to engage.</p>
+            <p className="my-4">We have more than one ways to engage.</p>
             <div>
               {engageCard.map((card) => (
                 <div key={card.title}>
@@ -186,7 +215,7 @@ const BuildHero = () => {
           <div className="mb-6 pb-4">
             <h1 className="font-bold mb-2">What is your phone number?</h1>
             <input
-              className="py-4 w-full outline-none"
+              className="py-4 w-full outline-none border-b-2"
               type="text"
               placeholder="eg.9841xxxxxx"
             />
@@ -196,13 +225,36 @@ const BuildHero = () => {
               Tell us something about your project
             </h1>
             <textarea
-              className="w-full outline-none border-none  py-4 border-b-2"
+              className="w-full outline-none  resize-none py-4 border-b-2"
               name=""
               id=""
               placeholder="eg. I want to build a mobile app for my business"
             ></textarea>
           </div>
           <Button name="SEND A MESSAGE" />
+        </div>
+      </div>
+      <div className="flex flex-col items-center bg-[#f7f8fb] py-[96px] w-full ">
+        <div className="flex items-center justify-center flex-col max-w-[1320px] w-full">
+          <h1 className="font-bold text-[32px] w-full">
+            We're happy to{" "}
+            <span className="text-green-500">chat in person </span>
+            if your're close to one of our <span>office locations.</span>
+          </h1>
+          <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5">
+            {cityInfo.map((city) => (
+              <div
+                className="flex flex-col items-start pt-8 px-5  bg-white "
+                key={city.city}
+              >
+                <img src={city.imgURL} alt="" />
+                <div className="flex flex-col items-start max-md:p-8 p-12">
+                  <h1 className="text-[24px] mb-3 font-bold">{city.city}</h1>
+                  <p className="text-[16px] text-slate-500">{city.address}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
